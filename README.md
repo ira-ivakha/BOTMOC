@@ -16,6 +16,30 @@
 ![image](https://user-images.githubusercontent.com/18271248/47381753-5b64c700-d6c6-11e8-95fe-d33cc920daed.png)
 
 
+
+## BotMOC Features
+1. [Copy and Paste](readme.md#)
+2. [Zoom in and out](readme.md#)
+
+
+
+### Copy and Paste -> Elments from the UI kit to the blank canvas
+![copygif](https://user-images.githubusercontent.com/18271248/47383921-5eae8180-d6cb-11e8-812b-c9d8a0f14569.gif)
+
+### Zoom in and Out Ctrl/CMD + Zoom and out
+![zoom](https://user-images.githubusercontent.com/18271248/47384123-d67cac00-d6cb-11e8-9acd-83fb59914ad4.gif)
+
+### Edit Text in Message -> Double click on the element to edit text
+![edittext](https://user-images.githubusercontent.com/18271248/47384321-67ec1e00-d6cc-11e8-84e4-cc7f00ce351a.gif)
+
+### Change Layer -> Click on the left of the screen and use the drop down arrows -> Click on the layer you want to edit
+![changelayer](https://user-images.githubusercontent.com/18271248/47384438-cd400f00-d6cc-11e8-873f-bf06780106d6.gif)
+
+
+
+
+
+
 ## Elements
 - [Buttons](elements.md#buttons)
 - [Card with Text, Description and Buttons](elements.md#card-with-text-description-and-buttons)
