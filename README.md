@@ -1,14 +1,26 @@
 # BOTMOC
 
-## Elements
+## Why use BOTMOC
 
+
+
+## Setup
+
+
+
+
+
+
+
+
+
+
+## Elements
 ### Buttons
 ![image](https://user-images.githubusercontent.com/18271248/47375429-d96ca200-d6b5-11e8-9462-1e4668ee9c65.png)
 
-
 ### Card with Text, Description and Buttons
 ![image](https://user-images.githubusercontent.com/18271248/47376786-29009d00-d6b9-11e8-9ce2-4aa8a0480781.png)
-
 
 ### Card With Text and Description
 ![image](https://user-images.githubusercontent.com/18271248/47376588-a37ced00-d6b8-11e8-8368-4430fa58e292.png)
@@ -31,6 +43,8 @@
 ### Image Carousel
 ![image](https://user-images.githubusercontent.com/18271248/47377648-7d0c8100-d6bb-11e8-9d83-fac14a3e41fa.png)
 
+### Video
+![image](https://user-images.githubusercontent.com/18271248/47378054-95c96680-d6bc-11e8-8aaf-73517f09e6a7.png)
 
 ### Arrows
 ![image](https://user-images.githubusercontent.com/18271248/47377624-67975700-d6bb-11e8-9676-3e65110267b9.png)
