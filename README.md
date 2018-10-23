@@ -11,9 +11,10 @@
 ## Setup
 1. Create an account on [Figma.com](https://www.figma.com)
 2. Login to your account
+![signup](https://user-images.githubusercontent.com/18271248/47385798-9cfa6f80-d6d0-11e8-9730-324398fac011.gif)
 3. Download Figma Template from Google Drive: [Here](https://drive.google.com/file/d/17yWxaVbLujXeLdD-cBwczIytEcwO8Z5s/view?usp=sharing)
 4. When you have it downloaded drag and drop the file to import into your figma account.
-![image](https://user-images.githubusercontent.com/18271248/47381753-5b64c700-d6c6-11e8-95fe-d33cc920daed.png)
+![import](https://user-images.githubusercontent.com/18271248/47385802-a08df680-d6d0-11e8-92c1-731617bf24ef.gif)
 
 
 
@@ -50,7 +51,7 @@
 ![resizecanvas](https://user-images.githubusercontent.com/18271248/47385347-55bfaf00-d6cf-11e8-8940-ab4daeb3bfbc.gif)
 
 ### Exporting the Mock Images
-
+![export](https://user-images.githubusercontent.com/18271248/47385482-bd75fa00-d6cf-11e8-8633-e2bbe1415777.gif)
 
 
 
