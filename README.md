@@ -68,6 +68,29 @@
 - [Image Carousel](elements.md#video)
 - [Arrows](elements.md#arrows)
 
+
+## Example Project
+### Final Result
+![mock 2](https://user-images.githubusercontent.com/18271248/47386174-9e786780-d6d1-11e8-9972-5e6992e00cb8.png)
+
+### Gif on the making of the this mock
+
+
+
+
+
+### Want to download this exaple? Click here:[download](https://drive.google.com/file/d/1E2MAJ4tRxNsOi6fO0b4mZY31Dg-f0EzC/view?usp=sharing)
+
+
+
+
+
+
+
+
+
+
+
 ## Example Areas
 - [Phone](phoneMock.md#phone-area-example)
 
