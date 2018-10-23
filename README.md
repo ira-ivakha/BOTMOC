@@ -30,7 +30,7 @@
 
 
 
-### Copy and Paste -> Elments from the UI kit to the blank canvas
+### Copy and Paste -> Elements from the UI kit to the blank canvas
 ![copygif](https://user-images.githubusercontent.com/18271248/47383921-5eae8180-d6cb-11e8-812b-c9d8a0f14569.gif)
 
 ### Zoom in and Out Ctrl/CMD + Zoom and out
@@ -75,9 +75,10 @@
 ![mock 2](https://user-images.githubusercontent.com/18271248/47386174-9e786780-d6d1-11e8-9972-5e6992e00cb8.png)
 
 ### Gif on the making of the this mock
+![Example](https://github.com/davidbudnick/BOTMOC/blob/master/example1.gif)
 
 
-### Want to download this exaple? Click here:[download](https://drive.google.com/file/d/1E2MAJ4tRxNsOi6fO0b4mZY31Dg-f0EzC/view?usp=sharing)
+### Want to download this example? Click here: [download](https://drive.google.com/file/d/1E2MAJ4tRxNsOi6fO0b4mZY31Dg-f0EzC/view?usp=sharing)
 
 ## Example Areas
 - [Phone](phoneMock.md#phone-area-example)
