@@ -1,7 +1,11 @@
 # BOTMOC
 
 ## Why use BOTMOC
-
+1. It’s free to use!
+2. High quality Facebook objects
+3. High quality exports
+4. Easy to share with clients
+5. It’s awesome!
 
 
 ## Setup
