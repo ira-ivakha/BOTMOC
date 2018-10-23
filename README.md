@@ -79,6 +79,3 @@
 
 
 ### Want to download this example? Click here: [download](https://drive.google.com/file/d/1E2MAJ4tRxNsOi6fO0b4mZY31Dg-f0EzC/view?usp=sharing)
-
-## Example Areas
-- [Phone](phoneMock.md#phone-area-example)
