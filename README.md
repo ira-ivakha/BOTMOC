@@ -20,6 +20,11 @@
 ## BotMOC Features
 1. [Copy and Paste](readme.md#)
 2. [Zoom in and out](readme.md#)
+3. [Edit Text in Message](readme.md#)
+4. [Change Layer](readme.md#)
+5. [Resizing Elements](readme.md#)
+6. [Color and Font Size](readme.md#)
+7. [Exporting the Mock Images](readme.md#)
 
 
 
@@ -35,7 +40,16 @@
 ### Change Layer -> Click on the left of the screen and use the drop down arrows -> Click on the layer you want to edit
 ![changelayer](https://user-images.githubusercontent.com/18271248/47384438-cd400f00-d6cc-11e8-873f-bf06780106d6.gif)
 
+### Resizing elements -> Click on the left and select the entire group then adjust the arrows on the side
+![resize](https://user-images.githubusercontent.com/18271248/47384606-5f481780-d6cd-11e8-9c97-a7379d43593a.gif)
 
+### Color and Font Size -> Click on the right panels under Text to change text and under fill to change color
+![textandcolor](https://user-images.githubusercontent.com/18271248/47384869-26f50900-d6ce-11e8-9cb8-d26bee6c6ff3.gif)
+
+### Resizing the canvas
+![resizecanvas](https://user-images.githubusercontent.com/18271248/47385347-55bfaf00-d6cf-11e8-8940-ab4daeb3bfbc.gif)
+
+### Exporting the Mock Images
 
 
 
