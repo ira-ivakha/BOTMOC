@@ -25,7 +25,7 @@
 4. [Change Layer](README.md#change-layer---click-on-the-left-of-the-screen-and-use-the-drop-down-arrows---click-on-the-layer-you-want-to-edit)
 5. [Resizing Elements](README.md#resizing-elements---click-on-the-left-and-select-the-entire-group-then-adjust-the-arrows-on-the-side)
 6. [Color and Font Size](https://github.com/davidbudnick/BOTMOC/blob/master/README.md#color-and-font-size---click-on-the-right-panels-under-text-to-change-text-and-under-fill-to-change-color)
-7. [Resizing the Canvas](README.md#exporting-the-mock-images)
+7. [Resizing the Canvas](README.md#resizing-the-canvas)
 8. [Exporting the Mock Images](README.md#exporting-the-mock-images)
 
 
