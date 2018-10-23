@@ -19,13 +19,14 @@
 
 
 ## BotMOC Features
-1. [Copy and Paste](readme.md#)
-2. [Zoom in and out](readme.md#)
-3. [Edit Text in Message](readme.md#)
-4. [Change Layer](readme.md#)
-5. [Resizing Elements](readme.md#)
-6. [Color and Font Size](readme.md#)
-7. [Exporting the Mock Images](readme.md#)
+1. [Copy and Paste](README.md#copy-and-paste---elments-from-the-ui-kit-to-the-blank-canvas)
+2. [Zoom in and out](README.md#zoom-in-and-out-ctrlcmd--zoom-and-out)
+3. [Edit Text in Message](README.md#edit-text-in-message---double-click-on-the-element-to-edit-text)
+4. [Change Layer](README.md#change-layer---click-on-the-left-of-the-screen-and-use-the-drop-down-arrows---click-on-the-layer-you-want-to-edit)
+5. [Resizing Elements](README.md#resizing-elements---click-on-the-left-and-select-the-entire-group-then-adjust-the-arrows-on-the-side)
+6. [Color and Font Size](https://github.com/davidbudnick/BOTMOC/blob/master/README.md#color-and-font-size---click-on-the-right-panels-under-text-to-change-text-and-under-fill-to-change-color)
+7. [Resizing the Canvas](README.md#exporting-the-mock-images)
+8. [Exporting the Mock Images](README.md#exporting-the-mock-images)
 
 
 
@@ -76,33 +77,7 @@
 ### Gif on the making of the this mock
 
 
-
-
-
 ### Want to download this exaple? Click here:[download](https://drive.google.com/file/d/1E2MAJ4tRxNsOi6fO0b4mZY31Dg-f0EzC/view?usp=sharing)
-
-
-
-
-
-
-
-
-
-
 
 ## Example Areas
 - [Phone](phoneMock.md#phone-area-example)
-
-
-
-
-
-
-
-
-
-
-
-
-
