@@ -7,6 +7,13 @@
 4. Easy to share with clients 💼
 5. It’s awesome!🙂
 
+## Business Use cases
+### Phone Mockups 
+![image](https://user-images.githubusercontent.com/18271248/48007656-b4c4f100-e0dd-11e8-828e-942ac4675f9f.png)
+
+### Bot Flows
+![image](https://user-images.githubusercontent.com/18271248/48007773-f05fbb00-e0dd-11e8-864c-ff74ae4546df.png)
+
 
 ## Setup
 1. Create an account on [Figma.com](https://www.figma.com)
