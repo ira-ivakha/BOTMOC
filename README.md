@@ -19,7 +19,7 @@
 
 
 ## BotMOC Features
-1. [Copy and Paste](README.md#copy-and-paste---elments-from-the-ui-kit-to-the-blank-canvas)
+1. [Copy and Paste](README.md#copy-and-paste---elements-from-the-ui-kit-to-the-blank-canvas)
 2. [Zoom in and out](README.md#zoom-in-and-out-ctrlcmd--zoom-and-out)
 3. [Edit Text in Message](README.md#edit-text-in-message---double-click-on-the-element-to-edit-text)
 4. [Change Layer](README.md#change-layer---click-on-the-left-of-the-screen-and-use-the-drop-down-arrows---click-on-the-layer-you-want-to-edit)
