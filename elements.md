@@ -3,28 +3,25 @@
 ![image](https://user-images.githubusercontent.com/18271248/47375429-d96ca200-d6b5-11e8-9462-1e4668ee9c65.png)
 
 ### Card with Text, Description and Buttons
-![image](https://user-images.githubusercontent.com/18271248/47376786-29009d00-d6b9-11e8-9ce2-4aa8a0480781.png)
+![image](https://user-images.githubusercontent.com/18271248/48149832-c0055180-e282-11e8-871a-c7e21724c053.png)
 
 ### Card With Text and Description
-![image](https://user-images.githubusercontent.com/18271248/47376588-a37ced00-d6b8-11e8-8368-4430fa58e292.png)
+![image](https://user-images.githubusercontent.com/18271248/48149857-d27f8b00-e282-11e8-8154-e8ae5bb5bda8.png)
 
 ### Message with Button
-![image](https://user-images.githubusercontent.com/18271248/47376838-4afa1f80-d6b9-11e8-87c3-ffdfd5c8dd33.png)
-
-### Message with Button Larger
-![image](https://user-images.githubusercontent.com/18271248/47377340-92cd7680-d6ba-11e8-8046-70613548b7e3.png)
+![image](https://user-images.githubusercontent.com/18271248/48149886-e4f9c480-e282-11e8-9d05-cc06f80dfe1c.png)
 
 ### Checkout Card
-![image](https://user-images.githubusercontent.com/18271248/47376950-97ddf600-d6b9-11e8-9ee5-231785d62899.png)
+![image](https://user-images.githubusercontent.com/18271248/48149971-12467280-e283-11e8-884e-720c4f92ced9.png)
 
 ### Persistent Menu
-![image](https://user-images.githubusercontent.com/18271248/47377517-18e9bd00-d6bb-11e8-9518-b332a5853ce5.png)
+![image](https://user-images.githubusercontent.com/18271248/48150333-f42d4200-e283-11e8-861a-68583c745e6c.png)
 
 ### Quick Reply Buttons
 ![image](https://user-images.githubusercontent.com/18271248/47377562-40408a00-d6bb-11e8-9ec2-f7f0c3d1f616.png)
 
 ### Image Carousel
-![image](https://user-images.githubusercontent.com/18271248/47377648-7d0c8100-d6bb-11e8-9d83-fac14a3e41fa.png)
+![image](https://user-images.githubusercontent.com/18271248/48150353-07d8a880-e284-11e8-80bb-66f807baa396.png)
 
 ### Video
 ![image](https://user-images.githubusercontent.com/18271248/47378054-95c96680-d6bc-11e8-8aaf-73517f09e6a7.png)
