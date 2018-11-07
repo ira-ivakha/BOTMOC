@@ -21,10 +21,10 @@
 ![image](https://user-images.githubusercontent.com/18271248/47377562-40408a00-d6bb-11e8-9ec2-f7f0c3d1f616.png)
 
 ### Image Carousel
-![image](https://user-images.githubusercontent.com/18271248/48150353-07d8a880-e284-11e8-80bb-66f807baa396.png)
+![image](https://user-images.githubusercontent.com/18271248/48150396-2b035800-e284-11e8-968c-18c5cc730d42.png)
 
 ### Video
-![image](https://user-images.githubusercontent.com/18271248/47378054-95c96680-d6bc-11e8-8aaf-73517f09e6a7.png)
+![image](https://user-images.githubusercontent.com/18271248/48150353-07d8a880-e284-11e8-80bb-66f807baa396.png)
 
 ### Arrows
 ![image](https://user-images.githubusercontent.com/18271248/47377624-67975700-d6bb-11e8-9676-3e65110267b9.png)
