@@ -1,6 +1,6 @@
 ## Elements
 ### Buttons
-![image](https://user-images.githubusercontent.com/18271248/47375429-d96ca200-d6b5-11e8-9462-1e4668ee9c65.png)
+![image](https://user-images.githubusercontent.com/18271248/48150597-ba107000-e284-11e8-8eba-ab2431e67e0d.png)
 
 ### Card with Text, Description and Buttons
 ![image](https://user-images.githubusercontent.com/18271248/48149832-c0055180-e282-11e8-871a-c7e21724c053.png)
@@ -9,7 +9,7 @@
 ![image](https://user-images.githubusercontent.com/18271248/48149857-d27f8b00-e282-11e8-8154-e8ae5bb5bda8.png)
 
 ### Message with Button
-![image](https://user-images.githubusercontent.com/18271248/48149886-e4f9c480-e282-11e8-9d05-cc06f80dfe1c.png)
+![image](https://user-images.githubusercontent.com/18271248/48150440-4b331700-e284-11e8-8170-9b48a27fb8f0.png)
 
 ### Checkout Card
 ![image](https://user-images.githubusercontent.com/18271248/48149971-12467280-e283-11e8-884e-720c4f92ced9.png)
