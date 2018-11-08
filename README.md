@@ -7,7 +7,7 @@
 4. Easy to share with clients 💼
 5. It’s awesome!🙂
 
-## Business Use cases
+## Business Use Cases
 ### Phone Mockups 
 ![image](https://user-images.githubusercontent.com/18271248/48007656-b4c4f100-e0dd-11e8-828e-942ac4675f9f.png)
 
