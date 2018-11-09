@@ -1,3 +1,3 @@
 # BOTMOC UI KIT
 
-# Check out Botmoc [botmoc.budnick.io](botmoc.budnick.io)
+# Read the documenation at: [botmoc.budnick.io](botmoc.budnick.io)
