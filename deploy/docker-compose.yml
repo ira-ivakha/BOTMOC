@@ -1,0 +1,27 @@
+version: '3.6'
+networks:
+  default:
+    external:
+      name: proxy
+services:
+  traefik:
+    image: traefik:alpine
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./traefik.toml:/traefik.toml
+      - ./acme.json:/acme.json
+  ui:
+    image: dbudnick/botmoc
+    restart: always
+    labels:
+      - 'traefik.backend=ui'
+      - 'traefik.docker.network=proxy'
+      - 'traefik.frontend.rule=Host:botmoc.budnick.io'
+      - 'traefik.enable=true'
+      - 'traefik.port=3000'
+      - 'traefik.default.protocol=http'
+      - 'traefik.frontend.priority=10'
