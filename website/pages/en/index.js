@@ -132,7 +132,7 @@ const LearnHow = () => (
       {
         content:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in convallis est. Suspendisse et sapien sed felis placerat sollicitudin. Donec egestas, ante congue feugiat mollis, nunc dolor pretium mauris, vitae mollis felis felis in purus. Phasellus nec sem tincidunt, mattis metus egestas, dignissim augue. Fusce a quam tincidunt, commodo sapien at, euismod elit.',
-        image: imgUrl('homepage/setup-botmoc.gif'),
+        image: imgUrl('homepage/logo.png'),
         imageAlign: 'right',
         title: 'Quick Setup',
       },
