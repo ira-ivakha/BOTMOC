@@ -52,7 +52,7 @@ const SplashContainer = (props) => (
 );
 
 const CustomButton = () => (
-  <a className="customButton" href={docUrl('1-why-use-botmoc.html')}>
+  <a className="customButton" href={docUrl('1-why-use-it.html')}>
     Documenation
   </a>
 );

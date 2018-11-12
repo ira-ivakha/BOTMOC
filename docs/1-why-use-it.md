@@ -1,6 +1,6 @@
 ---
-id: 1-why-use-botmoc
-title: Why use BOTMOC
+id: 1-why-use-it
+title: Why use it?
 ---
 
 ### 1. It’s FREE to use! 🤑
