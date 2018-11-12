@@ -74,7 +74,7 @@ const Features = () => (
         title: 'Facebook Elements',
       },
       {
-        content: 'Integrated with Figma a leading online desing program',
+        content: 'Integrated with Figma a leading online design program',
         image: imgUrl('homepage/figma.jpg'),
         imageAlign: 'top',
         title: 'Figma Integration',
@@ -134,7 +134,7 @@ const LearnHow = () => (
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in convallis est. Suspendisse et sapien sed felis placerat sollicitudin. Donec egestas, ante congue feugiat mollis, nunc dolor pretium mauris, vitae mollis felis felis in purus. Phasellus nec sem tincidunt, mattis metus egestas, dignissim augue. Fusce a quam tincidunt, commodo sapien at, euismod elit.',
         image: imgUrl('homepage/logo.png'),
         imageAlign: 'right',
-        title: 'Quick Setup',
+        title: 'Quick Setup and Design',
       },
     ]}
   </BlockCustom>
