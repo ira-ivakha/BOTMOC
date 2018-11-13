@@ -14,17 +14,4 @@ router.get('/all', async (req, res, next) => {
   });
 });
 
-router.get('/reset', async (req, res, next) => {
-  db.User.drop().then(() => {
-    res.send('DB_USERS DROPPED');
-  });
-});
-
-router.get('/create', async (req, res, next) => {
-  db.User.create().then(() => {
-    res.send('DB_USERS CREATED');
-  });
-});
-router;
-
 module.exports = router;

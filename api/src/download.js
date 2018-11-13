@@ -12,8 +12,6 @@ async function download(req) {
   });
 
   let userData = await db.User.create({
-    // ip: req.connection.remoteAddress,
-    ip: clientIp,
     locationData: locationData,
     //prettier-ignore
     userAgent: req.headers["user-agent"],

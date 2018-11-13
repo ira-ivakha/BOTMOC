@@ -9,6 +9,9 @@
                     "autoIncrement": true,
                     "seqType": "Sequelize.INTEGER"
                 },
+                "ip": {
+                    "seqType": "Sequelize.STRING"
+                },
                 "locationData": {
                     "seqType": "Sequelize.JSON"
                 },
@@ -30,5 +33,5 @@
             "indexes": []
         }
     },
-    "revision": 2
+    "revision": 1
 }

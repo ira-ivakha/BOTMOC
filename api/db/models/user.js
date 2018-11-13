@@ -3,7 +3,6 @@ module.exports = (sequelize, DataTypes) => {
   const User = sequelize.define(
     'User',
     {
-      ip: DataTypes.STRING,
       locationData: DataTypes.JSON(DataTypes.STRING),
       userAgent: DataTypes.STRING,
       acceptLanguage: DataTypes.STRING,
