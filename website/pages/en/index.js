@@ -132,7 +132,7 @@ const LearnHow = () => (
       {
         content:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in convallis est. Suspendisse et sapien sed felis placerat sollicitudin. Donec egestas, ante congue feugiat mollis, nunc dolor pretium mauris, vitae mollis felis felis in purus. Phasellus nec sem tincidunt, mattis metus egestas, dignissim augue. Fusce a quam tincidunt, commodo sapien at, euismod elit.',
-        image: imgUrl('homepage/logo.png'),
+        image: imgUrl('homepage/fastSetup.jpg'),
         imageAlign: 'right',
         title: 'Quick Setup and Design',
       },
@@ -146,7 +146,7 @@ const Description = () => (
       {
         content:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in convallis est. Suspendisse et sapien sed felis placerat sollicitudin. Donec egestas, ante congue feugiat mollis, nunc dolor pretium mauris, vitae mollis felis felis in purus. Phasellus nec sem tincidunt, mattis metus egestas, dignissim augue. Fusce a quam tincidunt, commodo sapien at, euismod elit. ',
-        image: imgUrl('/homepage/logo.png'),
+        image: imgUrl('/homepage/about.jpeg'),
         imageAlign: 'left',
         title: 'About Product',
       },
