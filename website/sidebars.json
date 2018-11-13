@@ -1,6 +1,7 @@
 {
   "docs": {
-    "Documentation": ["1-why-use-it", "1.1-business-use-cases", "1.2-setup", "1.3-features", "1.4-download"],
-    "Elements": ["2-elements"]
+    "Documentation": ["1-why-use-it", "1.1-setup", "1.2-features", "1.3-download"],
+    "Elements": ["2-elements"],
+    "Usecases": ["3-usecases"]
   }
 }

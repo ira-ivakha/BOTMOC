@@ -68,7 +68,7 @@ const Features = () => (
   <Block layout="threeColumn">
     {[
       {
-        content: 'A collection of all facebook elements',
+        content: 'A collection of all high quality facebook elements',
         image: imgUrl('homepage/facebook.png'),
         imageAlign: 'top',
         title: 'Facebook Elements',
@@ -80,7 +80,7 @@ const Features = () => (
         title: 'Figma Integration',
       },
       {
-        content: 'Designed internally by Master of Code',
+        content: 'Designed and used internally by Master of Code',
         image: imgUrl('homepage/logo.png'),
         imageAlign: 'top',
         title: 'Designed by MOC',
@@ -126,27 +126,33 @@ const BlockCustom = (props) => (
   </Container>
 );
 
+const BlockCustomRight = (props) => (
+  <Container padding={['bottom', 'top']} id={props.id} background={props.background}>
+    <GridBlock align="left" contents={props.children} layout={props.layout} />
+  </Container>
+);
+
 const LearnHow = () => (
-  <BlockCustom background="light" className="leftAlignIndex">
+  <BlockCustomRight background="">
     {[
       {
         content:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in convallis est. Suspendisse et sapien sed felis placerat sollicitudin. Donec egestas, ante congue feugiat mollis, nunc dolor pretium mauris, vitae mollis felis felis in purus. Phasellus nec sem tincidunt, mattis metus egestas, dignissim augue. Fusce a quam tincidunt, commodo sapien at, euismod elit.',
-        image: imgUrl('homepage/fastSetup.jpg'),
-        imageAlign: 'right',
+        image: imgUrl('homepage/fastSetup.png'),
+        imageAlign: 'left',
         title: 'Quick Setup and Design',
       },
     ]}
-  </BlockCustom>
+  </BlockCustomRight>
 );
 
 const Description = () => (
-  <BlockCustom background="dark">
+  <BlockCustom background="light">
     {[
       {
         content:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in convallis est. Suspendisse et sapien sed felis placerat sollicitudin. Donec egestas, ante congue feugiat mollis, nunc dolor pretium mauris, vitae mollis felis felis in purus. Phasellus nec sem tincidunt, mattis metus egestas, dignissim augue. Fusce a quam tincidunt, commodo sapien at, euismod elit. ',
-        image: imgUrl('/homepage/about.jpeg'),
+          'Rome was not built in a day but mockups can be. BOTMOC is a quick and easy to set up library that helps in creating professional and high-quality messenger chatbot mockups. On top of that, it is free and provides an environment to easily collaborate among team members.',
+        image: imgUrl('/homepage/rome.png'),
         imageAlign: 'left',
         title: 'About Product',
       },
@@ -188,8 +194,8 @@ class Index extends React.Component {
         <HomeSplash language={language} />
         <div className="mainContainer">
           <Features />
-          <LearnHow />
           <Description />
+          <LearnHow />
           {/* <Showcase language={language} /> */}
         </div>
       </div>

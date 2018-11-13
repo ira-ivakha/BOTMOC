@@ -1,16 +1,16 @@
 ---
-id: 1.1-business-use-cases
-title: Business Use Cases
+id: 3-usecases
+title: Examples
 ---
 
 ## Phone Mockups
 
 #### Phone mockups are used for desinging a bot flow the resembles smartphone screenshots. You can use muliple of these phone sceen mock ups to design a full bot flow.
 
-![alt-text](assets/1.1-BusinessUseCases/48007656-b4c4f100-e0dd-11e8-828e-942ac4675f9f.png)
+![alt-text](assets/3-Usecases/phone.png)
 
 ## Bot Flows
 
 #### Bot flows are used for desiging bot flows with multiple paths. Using the facebook elements make it easy for a client to see what I will look like in facebook.
 
-![alt-text](assets/-1.1BusinessUseCases/48007773-f05fbb00-e0dd-11e8-864c-ff74ae4546df.png)
+![alt-text](assets/3-Usecases/flow.png)
