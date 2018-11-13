@@ -154,31 +154,31 @@ const Description = () => (
   </BlockCustom>
 );
 
-const Showcase = (props) => {
-  if ((siteConfig.users || []).length === 0) {
-    return null;
-  }
+// const Showcase = (props) => {
+//   if ((siteConfig.users || []).length === 0) {
+//     return null;
+//   }
 
-  const showcase = siteConfig.users
-    .filter((user) => user.pinned)
-    .map((user) => (
-      <a href={user.infoLink} key={user.infoLink}>
-        <img src={user.image} alt={user.caption} title={user.caption} />
-      </a>
-    ));
+//   const showcase = siteConfig.users
+//     .filter((user) => user.pinned)
+//     .map((user) => (
+//       <a href={user.infoLink} key={user.infoLink}>
+//         <img src={user.image} alt={user.caption} title={user.caption} />
+//       </a>
+//     ));
 
-  return (
-    <div className="productShowcaseSection paddingTop">
-      <h2>Who is Using This?</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in convallis est. Suspendisse et sapien sed felis
-        placerat sollicitudin. Donec egestas, ante congue feugiat mollis, nunc dolor pretium mauris, vitae mollis felis
-        felis.
-      </p>
-      <div className="logos">{showcase}</div>
-    </div>
-  );
-};
+//   return (
+//     <div className="productShowcaseSection paddingTop">
+//       <h2>Who is Using This?</h2>
+//       <p>
+//         Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in convallis est. Suspendisse et sapien sed felis
+//         placerat sollicitudin. Donec egestas, ante congue feugiat mollis, nunc dolor pretium mauris, vitae mollis felis
+//         felis.
+//       </p>
+//       <div className="logos">{showcase}</div>
+//     </div>
+//   );
+// };
 
 class Index extends React.Component {
   render() {
@@ -190,7 +190,7 @@ class Index extends React.Component {
           <Features />
           <LearnHow />
           <Description />
-          <Showcase language={language} />
+          {/* <Showcase language={language} /> */}
         </div>
       </div>
     );
