@@ -32,12 +32,12 @@ services:
       - 'traefik.backend=be'
       - 'traefik.docker.network=proxy'
       - 'traefik.enable=true'
-      - 'traefik.port=3000'
+      - 'traefik.port=4000'
       - 'traefik.frontend.rule=PathPrefixStrip:/api/'
       - 'traefik.default.protocol=http'
       - 'traefik.frontend.priority=20'
     ports:
-      - 3000:3000
+      - 4000:4000
     environment:
       SERVER_PORT: 3000
       NODE_ENV: production
