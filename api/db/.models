@@ -1,0 +1,1 @@
+yarn sq model:generate --name User --attributes ip:string,userAgent:string,acceptLanguage:string
