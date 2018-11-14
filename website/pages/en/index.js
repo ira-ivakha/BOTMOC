@@ -17,6 +17,16 @@ const siteConfig = require(`${process.cwd()}/siteConfig.js`);
 
 const axios = require('axios');
 
+//Get the total amount of people who downloaded botmoc
+axios
+  .get('https://botmoc.budnick.io/api/download/count')
+  .then((data) => {
+    console.log(data.count);
+  })
+  .catch((err) => {
+    console.log('Error counting downloads');
+  });
+
 function imgUrl(img) {
   return `${siteConfig.baseUrl}img/${img}`;
 }
@@ -107,7 +117,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="botmoc.fig">Download Now</Button>
+            <Button href="https://botmoc.budnick.io/api/download">Download Now</Button>
             <CustomButton />
           </PromoSection>
         </div>
