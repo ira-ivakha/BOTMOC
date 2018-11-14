@@ -24,7 +24,8 @@ router.get('/count', async (req, res, next) => {
   let countData = await db.User.findAndCountAll().catch((err) => {
     logger.error('Error counting all users ', err);
   });
-  res.send(JSON.stringify(countData.count));
+  // res.send(JSON.stringify(countData.count));
+  res.send(countData);
 });
 
 module.exports = router;

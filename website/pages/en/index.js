@@ -12,38 +12,33 @@ const CompLibrary = require('../../core/CompLibrary.js');
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 const siteConfig = require(`${process.cwd()}/siteConfig.js`);
-const axios = require('axios');
-
-//Get the total amount of people who downloaded botmoc
-// axios
-// .get('https://botmoc.budnick.io/api/download/count');
-// .then((information) => {
-//   downloads = information.data.count;
-// })
-// .catch((err) => {
-//   console.log('Error counting downloads');
-// });
 
 class Download extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      data: [],
-    };
-  }
-  componentDidMount() {
-    axios
-      .get('https://botmoc.budnick.io/api/download/count')
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }
-
   render() {
-    return <div className="App">{this.state.data.count}</div>;
+    return (
+      <span>
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+          integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+          crossOrigin="anonymous"
+        />
+
+        <script src="https://unpkg.com/axios/dist/axios.min.js" />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+          axios.get('https://botmoc.budnick.io/api/download/count').then((information) => {
+                  document.getElementById('number2').innerHTML = information.data.count + '+';
+                }).catch((err) => {
+                  console.log('Error counting downloads', err);
+                });
+        `,
+          }}
+        />
+      </span>
+    );
   }
 }
 
@@ -129,6 +124,45 @@ const PromoSection = (props) => (
   </div>
 );
 
+const StatsSection = (props) => (
+  <div id="projectFacts" className="sectionClass">
+    <div className="fullWidth eight columns">
+      <div className="projectFactsWrap ">
+        <div className="item wow fadeInUpBig animated animated" data-number="20">
+          <i className="fab fa-facebook" />
+          <p id="number3" className="number">
+            20+
+          </p>
+          <span />
+          <p>Facebook Elements</p>
+        </div>
+        <div className="item wow fadeInUpBig animated animated">
+          <i className="fas fa-download" />
+          <p id="number2" className="number" />
+          <span />
+          <p>Downloads</p>
+        </div>
+        <div className="item wow fadeInUpBig animated animated" data-number="359">
+          <i className="fa fa-coffee" />
+          <p id="number3" className="number">
+            359
+          </p>
+          <span />
+          <p>Cups of coffee</p>
+        </div>
+        <div className="item wow fadeInUpBig animated animated" data-number="246">
+          <i className="fa fa-camera" />
+          <p id="number4" className="number">
+            246
+          </p>
+          <span />
+          <p>Photos taken</p>
+        </div>
+      </div>
+    </div>
+  </div>
+);
+
 class HomeSplash extends React.Component {
   render() {
     const language = this.props.language || '';
@@ -137,8 +171,8 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="https://botmoc.budnick.io/api/download">Download Now </Button>
-            <Download />
+            <Button href="https://botmoc.budnick.io/api/download">Download Now</Button>
+
             <CustomButton />
           </PromoSection>
         </div>
@@ -229,7 +263,8 @@ class Index extends React.Component {
           <Features />
           <Description />
           <LearnHow />
-          {/* <Showcase language={language} /> */}
+          <Download />
+          <StatsSection />
         </div>
       </div>
     );
