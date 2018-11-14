@@ -6,31 +6,28 @@ module.exports = {
         allowNull: false,
         autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
-      },
-      ip: {
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER,
       },
       userAgent: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       acceptLanguage: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
       },
       locationData: {
-        type: Sequelize.JSON
+        type: Sequelize.JSON,
       },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
-      }
+        type: Sequelize.DATE,
+      },
     });
   },
   down: (queryInterface, Sequelize) => {
     return queryInterface.dropTable('Vists');
-  }
+  },
 };

@@ -42,6 +42,27 @@ class Download extends React.Component {
   }
 }
 
+class Vist extends React.Component {
+  render() {
+    return (
+      <span>
+        <script src="https://unpkg.com/axios/dist/axios.min.js" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+          axios.get('https://botmoc.budnick.io/api/vist/count').then((information) => {
+                  document.getElementById('number3').innerHTML = information.data.count + '+';
+                }).catch((err) => {
+                  console.log('Error counting downloads', err);
+                });
+        `,
+          }}
+        />
+      </span>
+    );
+  }
+}
+
 function imgUrl(img) {
   return `${siteConfig.baseUrl}img/${img}`;
 }
@@ -128,13 +149,11 @@ const StatsSection = (props) => (
   <div id="projectFacts" className="sectionClass">
     <div className="fullWidth eight columns">
       <div className="projectFactsWrap ">
-        <div className="item wow fadeInUpBig animated animated" data-number="359">
+        <div className="item wow fadeInUpBig animated animated">
           <i className="fa fa-coffee" />
-          <p id="number3" className="number">
-            359
-          </p>
+          <p id="number3" className="number" />
           <span />
-          <p>Cups of coffee</p>
+          <p>Website Visitors</p>
         </div>
         <div className="item wow fadeInUpBig animated animated" data-number="20">
           <i className="fab fa-facebook" />
@@ -261,6 +280,7 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <Download />
+          <Vist />
           <StatsSection />
           <Description />
           <LearnHow />

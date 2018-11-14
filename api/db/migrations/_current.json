@@ -28,7 +28,39 @@
                 }
             },
             "indexes": []
+        },
+        "Vists": {
+            "tableName": "Vists",
+            "schema": {
+                "id": {
+                    "allowNull": false,
+                    "primaryKey": true,
+                    "autoIncrement": true,
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "ip": {
+                    "seqType": "Sequelize.STRING"
+                },
+                "userAgent": {
+                    "seqType": "Sequelize.STRING"
+                },
+                "acceptLanguage": {
+                    "seqType": "Sequelize.STRING"
+                },
+                "locationData": {
+                    "seqType": "Sequelize.JSON"
+                },
+                "createdAt": {
+                    "allowNull": false,
+                    "seqType": "Sequelize.DATE"
+                },
+                "updatedAt": {
+                    "allowNull": false,
+                    "seqType": "Sequelize.DATE"
+                }
+            },
+            "indexes": []
         }
     },
-    "revision": 2
+    "revision": 1
 }
