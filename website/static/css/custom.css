@@ -55,10 +55,8 @@ p {
   margin-bottom: 20px !important;
 }
 
-@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+/* @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow); */
 body {
-  /* font-family: Open Sans, 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; */
-  color: #666;
   position: relative;
   -webkit-font-smoothing: antialiased;
   margin: 0;
@@ -153,7 +151,6 @@ body {
   font-size: 18px;
   margin: 0;
   padding: 10px;
-  font-family: 'Open Sans';
 }
 
 .projectFactsWrap .item span {

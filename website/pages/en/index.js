@@ -128,6 +128,14 @@ const StatsSection = (props) => (
   <div id="projectFacts" className="sectionClass">
     <div className="fullWidth eight columns">
       <div className="projectFactsWrap ">
+        <div className="item wow fadeInUpBig animated animated" data-number="359">
+          <i className="fa fa-coffee" />
+          <p id="number3" className="number">
+            359
+          </p>
+          <span />
+          <p>Cups of coffee</p>
+        </div>
         <div className="item wow fadeInUpBig animated animated" data-number="20">
           <i className="fab fa-facebook" />
           <p id="number3" className="number">
@@ -142,21 +150,13 @@ const StatsSection = (props) => (
           <span />
           <p>Downloads</p>
         </div>
-        <div className="item wow fadeInUpBig animated animated" data-number="359">
-          <i className="fa fa-coffee" />
-          <p id="number3" className="number">
-            359
-          </p>
-          <span />
-          <p>Cups of coffee</p>
-        </div>
         <div className="item wow fadeInUpBig animated animated" data-number="246">
-          <i className="fa fa-camera" />
+          <i className="fas fa-file" />
           <p id="number4" className="number">
-            246
+            1MB
           </p>
           <span />
-          <p>Photos taken</p>
+          <p>BOTMOC File Size</p>
         </div>
       </div>
     </div>
@@ -172,7 +172,6 @@ class HomeSplash extends React.Component {
           <ProjectTitle />
           <PromoSection>
             <Button href="https://botmoc.budnick.io/api/download">Download Now</Button>
-
             <CustomButton />
           </PromoSection>
         </div>
@@ -261,10 +260,10 @@ class Index extends React.Component {
         <HomeSplash language={language} />
         <div className="mainContainer">
           <Features />
-          <Description />
-          <LearnHow />
           <Download />
           <StatsSection />
+          <Description />
+          <LearnHow />
         </div>
       </div>
     );
