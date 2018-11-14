@@ -42,7 +42,7 @@ class Download extends React.Component {
   }
 }
 
-class Vist extends React.Component {
+class Count extends React.Component {
   render() {
     return (
       <span>
@@ -53,6 +53,27 @@ class Vist extends React.Component {
           axios.get('https://botmoc.budnick.io/api/vist/count').then((information) => {
                   document.getElementById('number3').innerHTML = information.data.count + '+';
                 }).catch((err) => {
+                  console.log('Error counting downloads', err);
+                });
+        `,
+          }}
+        />
+      </span>
+    );
+  }
+}
+
+class Vist extends React.Component {
+  render() {
+    return (
+      <span>
+        <script src="https://unpkg.com/axios/dist/axios.min.js" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+          axios.get('https://botmoc.budnick.io/api/vist/').then((information) => {
+            console.log(information)
+            }).catch((err) => {
                   console.log('Error counting downloads', err);
                 });
         `,
@@ -280,6 +301,7 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <Download />
+          <Count />
           <Vist />
           <StatsSection />
           <Description />
