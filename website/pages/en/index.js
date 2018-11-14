@@ -8,24 +8,44 @@
 const React = require('react');
 
 const CompLibrary = require('../../core/CompLibrary.js');
-
-const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
+// const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
-
 const siteConfig = require(`${process.cwd()}/siteConfig.js`);
-
 const axios = require('axios');
 
 //Get the total amount of people who downloaded botmoc
-axios
-  .get('https://botmoc.budnick.io/api/download/count')
-  .then((data) => {
-    console.log(data.count);
-  })
-  .catch((err) => {
-    console.log('Error counting downloads');
-  });
+// axios
+// .get('https://botmoc.budnick.io/api/download/count');
+// .then((information) => {
+//   downloads = information.data.count;
+// })
+// .catch((err) => {
+//   console.log('Error counting downloads');
+// });
+
+class Download extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: [],
+    };
+  }
+  componentDidMount() {
+    axios
+      .get('https://botmoc.budnick.io/api/download/count')
+      .then((response) => {
+        console.log(response);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }
+
+  render() {
+    return <div className="App">{this.state.data.count}</div>;
+  }
+}
 
 function imgUrl(img) {
   return `${siteConfig.baseUrl}img/${img}`;
@@ -117,7 +137,8 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="https://botmoc.budnick.io/api/download">Download Now</Button>
+            <Button href="https://botmoc.budnick.io/api/download">Download Now </Button>
+            <Download />
             <CustomButton />
           </PromoSection>
         </div>

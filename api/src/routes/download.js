@@ -21,13 +21,10 @@ router.get('/all', async (req, res, next) => {
 });
 
 router.get('/count', async (req, res, next) => {
-  db.User.findAndCountAll()
-    .then((count) => {
-      res.send(count);
-    })
-    .catch((err) => {
-      logger.error('Error counting all users ', err);
-    });
+  let countData = await db.User.findAndCountAll().catch((err) => {
+    logger.error('Error counting all users ', err);
+  });
+  res.send(JSON.stringify(countData.count));
 });
 
 module.exports = router;
