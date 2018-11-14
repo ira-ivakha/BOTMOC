@@ -15,6 +15,8 @@ const GridBlock = CompLibrary.GridBlock;
 
 const siteConfig = require(`${process.cwd()}/siteConfig.js`);
 
+const axios = require('axios');
+
 function imgUrl(img) {
   return `${siteConfig.baseUrl}img/${img}`;
 }
