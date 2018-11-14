@@ -19,11 +19,11 @@ app.use(bodyParser.json());
 
 //Routers
 const download = require('./src/routes/download');
-const analytics = require('./src/routes/analytics');
+const vist = require('./src/routes/vist');
 
 //Using Routes
 app.use('/download', download);
-app.use('/analytics', analytics);
+app.use('/vist', vist);
 
 app.get('/', (req, res) => {
   res.send('Route Active: 🤖');

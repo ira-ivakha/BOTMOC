@@ -1,1 +1,2 @@
 yarn sq model:generate --name User --attributes ip:string,userAgent:string,acceptLanguage:string,locationData:JSON
+yarn sq model:generate --name Vist --attributes ip:string,userAgent:string,acceptLanguage:string,locationData:JSON
