@@ -30,7 +30,7 @@ class Download extends React.Component {
           dangerouslySetInnerHTML={{
             __html: `
           axios.get('https://botmoc.budnick.io/api/download/count').then((information) => {
-                  document.getElementById('number2').innerHTML = information.data.count + '+';
+                  document.getElementById('number2').innerHTML = information.data.count;
                 }).catch((err) => {
                   console.log('Error counting downloads', err);
                 });
@@ -51,7 +51,7 @@ class Count extends React.Component {
           dangerouslySetInnerHTML={{
             __html: `
           axios.get('https://botmoc.budnick.io/api/vist/count').then((information) => {
-                  document.getElementById('number3').innerHTML = information.data.count + '+';
+                  document.getElementById('number3').innerHTML = information.data.count;
                 }).catch((err) => {
                   console.log('Error counting downloads', err);
                 });
@@ -171,7 +171,7 @@ const StatsSection = (props) => (
     <div className="fullWidth eight columns">
       <div className="projectFactsWrap ">
         <div className="item wow fadeInUpBig animated animated">
-          <i className="fa fa-coffee" />
+          <i className="fas fa-user" />
           <p id="number3" className="number" />
           <span />
           <p>Website Visitors</p>
@@ -179,7 +179,7 @@ const StatsSection = (props) => (
         <div className="item wow fadeInUpBig animated animated" data-number="20">
           <i className="fab fa-facebook" />
           <p id="number3" className="number">
-            20+
+            20
           </p>
           <span />
           <p>Facebook Elements</p>
