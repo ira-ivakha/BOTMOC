@@ -243,7 +243,7 @@ const LearnHow = () => (
     {[
       {
         content:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in convallis est. Suspendisse et sapien sed felis placerat sollicitudin. Donec egestas, ante congue feugiat mollis, nunc dolor pretium mauris, vitae mollis felis felis in purus. Phasellus nec sem tincidunt, mattis metus egestas, dignissim augue. Fusce a quam tincidunt, commodo sapien at, euismod elit.',
+          'Botmoc takes less than a minute to setup and it is ready to create professional bot mockups. Botmoc compared to other websites is completely free end to end. This open source product was released because we saw a lot of other products doing it wrong when the offered simple tools for such a high price. If you need more information on how to use botmoc look in the documentation which is linked at the top of this page beside the download button.',
         image: imgUrl('homepage/fastSetup.png'),
         imageAlign: 'left',
         title: 'Quick Setup and Design',
