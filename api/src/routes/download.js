@@ -28,4 +28,9 @@ router.get('/count', async (req, res, next) => {
   res.send(countData);
 });
 
+router.get('/mapData', async (req, res, next) => {
+  let locationData = await download.formattedLocationData();
+  res.send(locationData);
+});
+
 module.exports = router;

@@ -23,4 +23,25 @@ async function download(req) {
   logger.info(JSON.stringify(userData));
 }
 
+async function formattedLocationData() {
+  let userData = await db.User.findAll().catch((err) => {
+    logger.error('Error find the users ', err);
+  });
+
+  let locationData = [];
+
+  for (let location of userData) {
+    let singleLocation = [];
+
+    singleLocation.push(location.locationData.city);
+    let longAndLat = `${location.locationData.latitude}, ${location.locationData.longitude}`;
+    singleLocation.push(longAndLat);
+
+    locationData.push(singleLocation);
+  }
+
+  return locationData;
+}
+
 module.exports.download = download;
+module.exports.formattedLocationData = formattedLocationData;
