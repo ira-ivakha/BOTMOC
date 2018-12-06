@@ -29,7 +29,7 @@ class Download extends React.Component {
         <script
           dangerouslySetInnerHTML={{
             __html: `
-          axios.get('https://botmoc.budnick.io/api/download/count').then((information) => {
+          axios.get('https://botmoc.masterofcode.com/api/download/count').then((information) => {
                   document.getElementById('number2').innerHTML = information.data.count;
                 }).catch((err) => {
                   console.log('Error counting downloads', err);
@@ -50,7 +50,7 @@ class Count extends React.Component {
         <script
           dangerouslySetInnerHTML={{
             __html: `
-          axios.get('https://botmoc.budnick.io/api/vist/count').then((information) => {
+          axios.get('https://botmoc.masterofcode.com/api/vist/count').then((information) => {
                   document.getElementById('number3').innerHTML = information.data.count;
                 }).catch((err) => {
                   console.log('Error counting downloads', err);
@@ -71,7 +71,7 @@ class Vist extends React.Component {
         <script
           dangerouslySetInnerHTML={{
             __html: `
-          axios.get('https://botmoc.budnick.io/api/vist/').then((information) => {
+          axios.get('https://botmoc.masterofcode.com/api/vist/').then((information) => {
             console.log(information)
             }).catch((err) => {
                   console.log('Error counting downloads', err);
@@ -211,7 +211,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle />
           <PromoSection>
-            <Button href="https://botmoc.budnick.io/api/download">Download Now</Button>
+            <Button href="https://botmoc.masterofcode.com/api/download">Download Now</Button>
             <CustomButton />
           </PromoSection>
         </div>
