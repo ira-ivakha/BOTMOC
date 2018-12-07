@@ -3,6 +3,7 @@ const pino = require('pino');
 const logger = pino({ prettyPrint: { colorize: true }, level: process.env.LOG_LEVEL || 'info', name: 'index' });
 const db = require('../db');
 const requestIp = require('request-ip');
+const axios = require('axios');
 
 async function download(req) {
   let clientIp = requestIp.getClientIp(req);
@@ -10,7 +11,7 @@ async function download(req) {
   axios
     .get(`https://ipapi.co/${clientIp}/json`)
     .then(function(response) {
-      db.Vist.create({
+      db.User.create({
         locationData: response.data,
         //prettier-ignore
         userAgent: req.headers["user-agent"],
