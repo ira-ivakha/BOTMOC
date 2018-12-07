@@ -3,27 +3,33 @@ const pino = require('pino');
 const logger = pino({ prettyPrint: { colorize: true }, level: process.env.LOG_LEVEL || 'info', name: 'index' });
 const db = require('../db');
 const requestIp = require('request-ip');
-const iplocation = require('iplocation').default;
+const axios = require('axios');
 
 async function vists(req) {
-  let clientIp = requestIp.getClientIp(req);
+  let clientIp = await requestIp.getClientIp(req);
 
-  let locationData = await iplocation(clientIp).catch((err) => {
-    logger.error('Error looking up ip address ', err);
-  });
+  logger.info('Client IP', clientIp);
 
-  logger.info(locationData);
-
-  let vistData = await db.Vist.create({
-    locationData: locationData,
-    //prettier-ignore
-    userAgent: req.headers["user-agent"],
-    //prettier-ignore
-    acceptLanguage: req.headers["accept-language"]
-  }).catch((err) => {
-    logger.error('Error writing user to db', err);
-  });
-  logger.info(JSON.stringify(vistData));
+  axios
+    .get(`https://ipapi.co/${clientIp}/json`)
+    .then(function(response) {
+      let vistData = db.Vist.create({
+        locationData: response.data,
+        //prettier-ignore
+        userAgent: req.headers["user-agent"],
+        //prettier-ignore
+        acceptLanguage: req.headers["accept-language"]
+      })
+        .then((data) => {
+          logger.info(JSON.stringify(data));
+        })
+        .catch((err) => {
+          logger.error('Error writing user to db', err);
+        });
+    })
+    .catch(function(error) {
+      console.log(error);
+    });
 }
 
 module.exports.vists = vists;
