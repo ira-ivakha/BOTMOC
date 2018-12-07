@@ -8,12 +8,10 @@ const axios = require('axios');
 async function vists(req) {
   let clientIp = await requestIp.getClientIp(req);
 
-  logger.info('Client IP', clientIp);
-
   axios
     .get(`https://ipapi.co/${clientIp}/json`)
     .then(function(response) {
-      let vistData = db.Vist.create({
+      db.Vist.create({
         locationData: response.data,
         //prettier-ignore
         userAgent: req.headers["user-agent"],
@@ -27,8 +25,8 @@ async function vists(req) {
           logger.error('Error writing user to db', err);
         });
     })
-    .catch(function(error) {
-      console.log(error);
+    .catch(function(err) {
+      logger.error('Error looking up IP', err);
     });
 }
 
