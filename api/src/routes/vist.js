@@ -10,15 +10,15 @@ router.get('/', async (req, res, next) => {
   res.send('vist');
 });
 
-// router.get('/all', async (req, res, next) => {
-//   db.Vist.findAll()
-//     .then((vists) => {
-//       res.send(vists);
-//     })
-//     .catch((err) => {
-//       logger.error('Error find the visitors', err);
-//     });
-// });
+router.get('/all', async (req, res, next) => {
+  db.Vist.findAll()
+    .then((vists) => {
+      res.send(vists);
+    })
+    .catch((err) => {
+      logger.error('Error find the visitors', err);
+    });
+});
 
 router.get('/count', async (req, res, next) => {
   let countData = await db.Vist.findAndCountAll().catch((err) => {

@@ -10,7 +10,7 @@
     "deploy": "cd .. && docker build -t dbudnick/botmoc . && docker login && docker push dbudnick/botmoc"
   },
   "devDependencies": {
-    "docusaurus": "^1.5.1"
+    "docusaurus": "^1.6.2"
   },
   "dependencies": {
     "axios": "^0.18.0"

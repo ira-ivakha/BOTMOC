@@ -12,6 +12,8 @@ async function vists(req) {
     logger.error('Error looking up ip address ', err);
   });
 
+  logger.info(locationData);
+
   let vistData = await db.Vist.create({
     locationData: locationData,
     //prettier-ignore
