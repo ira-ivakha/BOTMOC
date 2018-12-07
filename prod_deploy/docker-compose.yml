@@ -39,7 +39,7 @@ services:
     ports:
       - 4000:4000
     environment:
-      SERVER_PORT: 3000
+      SERVER_PORT: 4000
       NODE_ENV: production
       DB_HOSTNAME: postgres
       POSTGRES_USERNAME: botmoc
